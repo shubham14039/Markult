@@ -1,0 +1,24 @@
+.circle{
+    width: 60px;
+    height: 60px;
+    background-color: #F0ECE3;
+    border-radius: 50%;
+}
+
+.semicircle{
+    width: 140px;
+    height: 70px;
+    border: 1px solid #F0ECE3;
+    background-color: #191617;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    clip-path: ellipse(50% 100% at 50% 93%);
+}
+
+.picture{
+    transform: rotate(225deg);
+    margin-left: 156px;
+    margin-top: -3px;
+    height: 0px;
+    position: absolute;
+}

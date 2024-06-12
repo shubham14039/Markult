@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap');
+/*make changes while changing resopnsiveness*/
+footer {
+    position: static;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    bottom: 0px;
+    width: 100%;
+}
+
+.body_of_footer {
+    background-color: #191617;
+    color: #F0ECE3;
+    width: 100%;
+}
+
+.first-box span{
+    display: flex;
+    flex-direction: column;
+    font-size: 100px;
+}
+
+.first-box span:nth-child(2){
+    margin-left: 60px;
+}
+
+input, textarea {
+    height: 25px;
+    width: 250px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid grey;
+    color: white;
+}
+
+#form-box:nth-child(2){
+    margin-left: 30px;
+}
+
+.container{
+    margin-top : 65px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact_text{
+    margin-top: 45px;
+    margin-left: 0px;
+}
+
+.section{
+    color: whitesmoke;
+    width:541.86px;
+}
+
+.address {
+    text-align: left;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.address-college {
+    margin: 1%;
+}
+
+.ekta{
+    /* display: flex; */
+    width: 46%;
+    color: #F0ECE3;
+}
+
+.principal{
+    display: flex;
+    color: #F0ECE3;
+}
+
+.card{
+    margin-top: 0px;
+}
+
+.desk {
+    color: #F0ECE3;
+}
+
+.ack-heading {
+    color: #F0ECE3;
+    font-family: "Princess Sofia", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+
+
+.slider-img{
+    height: 400px;
+    width: 700px;
+    border-radius: 4%;
+}

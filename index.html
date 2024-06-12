@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Shubham Kumar"> 
+    <link rel="stylesheet" href="../Markult/css/style_of_footer.css" />
+    <link rel="shortcut icon" href="../Markult/images/favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../Markult/css/piture_in_footer.css">
+    <link rel="stylesheet" href="../Markult/css/style.css">
+    <link rel="icon" href="../Markult/images/favicon_io/favicon.ico">
+    <title>Markult/Main Page</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+        @import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        .contact_text {
+            font-family: "Gotu", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .example-2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .example-2 .icon-content {
+            margin: 0 10px;
+            position: relative;
+        }
+
+        .example-2 .icon-content .tooltip {
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff;
+            padding: 6px 10px;
+            border-radius: 5px;
+            opacity: 0;
+            visibility: hidden;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        .example-2 .icon-content:hover .tooltip {
+            opacity: 1;
+            visibility: visible;
+            top: -50px;
+        }
+
+        .example-2 .icon-content a {
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            color: #4d4d4d;
+            background-color: #fff;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .example-2 .icon-content a:hover {
+            box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+        }
+
+        .example-2 .icon-content a svg {
+            position: relative;
+            z-index: 1;
+            width: 30px;
+            height: 30px;
+        }
+
+        .example-2 .icon-content a:hover {
+            color: white;
+        }
+
+        .example-2 .icon-content a .filled {
+            position: absolute;
+            top: auto;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 0;
+            background-color: #000;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .example-2 .icon-content a:hover .filled {
+            height: 100%;
+        }
+
+        .example-2 .icon-content a[data-social="linkedin"] .filled,
+        .example-2 .icon-content a[data-social="linkedin"]~.tooltip {
+            background-color: #0274b3;
+        }
+
+        .example-2 .icon-content a[data-social="github"] .filled,
+        .example-2 .icon-content a[data-social="github"]~.tooltip {
+            background-color: #24262a;
+        }
+
+        .example-2 .icon-content a[data-social="instagram"] .filled,
+        .example-2 .icon-content a[data-social="instagram"]~.tooltip {
+            background: linear-gradient(45deg,
+                    #405de6,
+                    #5b51db,
+                    #b33ab4,
+                    #c135b4,
+                    #e1306c,
+                    #fd1f1f);
+        }
+
+        .example-2 .icon-content a[data-social="youtube"] .filled,
+        .example-2 .icon-content a[data-social="youtube"]~.tooltip {
+            background-color: #ff0000;
+        }
+
+        .about-head {
+            font-family: "Italiana", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            
+        }
+
+        .about-body {
+            font-family: "Merriweather Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 450;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+
+    <!--Navigation Bar-->
+    <header>
+        <nav>
+            <ul id="navbar">
+                <!--change the logo link-->
+                <img id="logo_image" class="logo" style="height: 42px;
+                width: 52px;" src="../Markult/images/logo.png" alt="Markut">
+                <h2 class="nav-id">Markult.</h2>
+                <ul>
+                    <!--make files for image gallery and events page-->
+                    <li><a href="#" class="nav_text"></a>Updates</li>
+                    <li><a href="#" class="nav_text"></a>Events</li>
+                    <li><a href="https://photos.google.com/share/AF1QipNE6wB1AzAMwcQynfb6iS75AGzSelpSfpI0si7dWXT96FZnF4jh_FTx2xarUoFv9A?key=dHVsT1hQZW5FUHpSQkRicFBNVUJtZTl2SjZBMlRn"
+                            class="nav_text">Gallery</a></li>
+                </ul>
+            </ul>
+        </nav>
+    </header>
+
+    <!--main body-->
+    <main>
+        <section class="heading-content">
+            <div class="left-stripe">
+                <div class="about">
+                    <h3 class="about-head">The Marketing society</h3>
+                    <p class="about-body">Since its inception, Markult has evolved from a small collegiate society into a dynamic platform that nurtures a vibrant community. Originally founded with the goal of enhancing student employability and skill development, Markult has grown into a robust association by and for students. Our activities range from hosting events designed to prepare students for management roles to tackling real-world challenges faced by various organizations. Our mission is to equip students to be corporate-ready while creating cherished memories that enrich their college experience.
+                        Markult's influence extends beyond the confines of Motilal Nehru College, proudly representing our institution and achieving recognition far and wide. With over 4,400 students engaged, hosting 7,000 participants, and collaborating with more than 100 societies, Markult stands as a beacon of inspiration and achievement.
+                        Our journey has been a thrilling roller coaster, with all the twists and turns of a blockbuster movie. At Markult, we're not just preparing for the future; we're making history.</p>
+                </div>
+                <div class="slider-picture">
+                    <div class="slider">
+                        <div class="slide">
+                            <img  class = "slider-img" src="../Markult/images/pic1.png" alt="Image 1" />
+                        </div>
+                        <div class="slide">
+                            <img  class = "slider-img" src="../Markult/images/pic2.png" alt="Image 2" />
+                        </div>
+                        <div class="slide">
+                            <img  class = "slider-img" src="../Markult/images/pic3.png" alt="Image 3" />
+                        </div>
+                        <div class="slide">
+                            <img  class = "slider-img" src="../Markult/images/pic4.png" alt="Image 4" />
+                        </div>
+                        <div class="slide">
+                            <img class = "slider-img"  src="../Markult/images/pic5.png" alt="Image 5" />
+                        </div>
+                        <div class="slide">
+                            <img class = "slider-img"  src="../Markult/images/pic6.png" alt="Image 6" />
+                        </div>
+                        <div class="slide">
+                            <img class = "slider-img"  src="../Markult/images/pic7.png" alt="Image 7" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+
+                let slideIndex = 0;
+                showSlides();
+                
+                function showSlides() {
+                    let slides = document.getElementsByClassName("slide");
+                    for (let i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {slideIndex = 1}
+                    slides[slideIndex-1].style.display = "block";
+                  setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+                
+                
+            </script>
+        </section>
+        <section class="v-m-cv">
+            <!-- <div class="left2"></div> -->
+            <div class="inline-text">
+                <div class="vision">
+                    <h3 class="vision-heading">Our Vision:</h3>
+                    <p>
+                        Our vision is to create a distinguished platform that not only recognizes the strategic and
+                        innovative contributions of our vibrant community of student leaders and advisors but also acts
+                        as a catalyst for marketing excellence and comprehensive development.
+                    </p>
+                </div>
+                <div class="vision">
+                    <h3 class="vision-heading">Our Mission:</h3>
+                    <p>Markult is dedicated to weaving a rich tapestry of stories, insights, and scholarly discourse
+                        that:</p>
+                    <li><strong>Celebrates</strong> the unique journeys and achievements of our members.</li>
+                    <li><strong>Engages</strong> with complex marketing challenges and presents in-depth case studies to
+                        spark intellectual curiosity and enhance practical problem-solving skills. </li>
+                    <li><strong>Fosters</strong> a community of learners and practitioners committed to the advancement
+                        of marketing knowledge and the upholdment of ethical practices.</li>
+                </div>
+                <div class="vision">
+                    <h3 class="vision-heading">Core Values:</h3>
+                    <li><strong>⁠Leadership</strong>: Showcasing the visionary guidance and lasting impact of our
+                        college's brilliant minds.</li>
+                    <li><strong>inovation</strong>: Encouraging a culture of innovation that propels the field of
+                        marketing forward. </li>
+                    <li><strong>Education</strong>: Committing to lifelong learning through rigorous engagement with
+                        challenging case</li>
+                </div>
+            </div>
+        </section>
+        <div><h1 class="our-events">Our events:</h1></div>
+        <section class="events-right">
+            <div class="card">
+                <div class="event-card-1"
+                    style="display: flex; width: 800px; margin-top: 50px; justify-content: space-between;">
+                    <h3 class="event-text-head-1"><strong>SYMPOSIUM'23</strong>: Premier Flagship Event</h3>
+                    <p class="event-text-body-1">Symposium’23 set a new benchmark as a powerhouse event, drawing an unprecedented 8,000+ attendees and 60,000+ online impressions. With 3,000+ applications from prestigious institutions such as IITs, IIMs, and MDIs, the event was a melting pot of ideas and talent, leaving a lasting impact on all who attended.</p>
+                    <div id="image1">
+                        <img class="event-images-1" src="../Markult/images/symposium23.jpg" alt="picture from symposium 2023">
+                    </div>
+                </div>
+                <!-- for card 2 -->
+                <div class="event-card-2"
+                    style="display: flex; width: 800px; margin-top: 50px; justify-content: space-between;">
+                    <div id="image2">
+                        <img class="event-images-2" src="../Markult/images/comienzo2.jpeg" alt="pictures from comienzo2">
+                    </div>
+                    <h3 class="event-text-head-2"><strong>COMIENZO 2.0</strong>: April 2023 Sophomore Semi-Annual Event</h3>
+                    <p class="event-text-body-2">Building on the success of our first Comienzo, Comienzo 2.0 took place on April 3, 2023. This sequel event captivated 5,000+ attendees and generated 50,000 impressions, cementing its status as a must-attend for those passionate about marketing. The competitive yet enjoyable atmosphere was a hit among students, sparking creativity and strategic thinking.</p>
+                </div>
+    
+                <!-- for card 3 -->
+                <div class="event-card-3"
+                    style="display: flex; width: 800px; margin-top: 50px; justify-content: space-between;">
+                    <h3 class="event-text-head-3"><strong>COMIENZO:</strong> Inaugural Event November 2022</h3>
+                    <p class="event-text-body-3">Markult’s inaugural event, Comienzo, launched on November 24, 2022, was a resounding success. Attracting over 2,000 applications and 30,000 online impressions, the competition featured participants from over 30 top colleges, including IITs and IIMs. Winners walked away with prizes totaling over ₹1,00,000, setting a high bar for future events.</p>
+                    <div id="image3">
+                        <img class="event-images-3" src="../Markult/images/pic4.png" alt="">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="acknowledgements">
+            <div><h2 class="ack-heading" style="text-align: center;">Gratitude.</h2></div>
+            <center>
+            <div class="card" style="display: flex; width: 88%;">
+                <div class="ekta " style="width: 50%; ">
+                    <img style="float: left; border-radius: 50%;" src="../Markult/images/ekta.png" height="150" width="150"
+                        alt="">
+                    <p style="line-height: 2em;">We extend our deepest gratitude to our convener, Ekta Ma'am, whose
+                        steadfast support and visionary leadership have been pivotal in the founding and success of our
+                        society. Her dedication has profoundly enriched the educational experience for all members of
+                        our marketing society.
+                    </p>
+                </div>
+                <div class="principal" style="width: 50%;">
+                    <img src="../Markult/images/primcipal.png" alt="" width="150" height="150" style="border-radius: 50%;">
+                    <p style="line-height: 2em;">We are also profoundly thankful to our esteemed principal, whose
+                        leadership and dedication to academic excellence foster an environment where ideas thrive and
+                        future leaders are nurtured. Under their guidance, our college continues to shine as a beacon of
+                        knowledge and innovation.</p>
+                </div>
+            </div>
+        </center>
+        <center>
+            <div class="desk">
+                <h3>From the desk</h3>
+                <p style="width: 80%;">Through our website, we aim to illuminate the pathways for current and aspiring marketers, equipping them with the necessary knowledge, inspiration, and tools to navigate the dynamic landscape of marketing. We take pride in documenting the inspiring stories of our leaders and contributing to the vibrant world of marketing education and practice.</p>
+            </div>
+        </center>
+        </section>
+    </main>
+
+
+
+    <!--Footer-->
+    <footer class="body_of_footer" style="padding-bottom: 1px; padding-top: 1px;">
+        <div class="container">
+            <div class="first-box">
+                <span class="contact_text">LET'S</span>
+                <span class="contact_text">GET IN
+                    <div class="picture">
+                        <div class="semicircle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </span>
+                <span class="contact_text">TOUCH</span>
+            </div>
+            <div class="second-box">
+                <form action="normal-form" id="contactForm">
+                    <div>
+                        <!-- <label for="first name">First Name</label> -->
+                        <input class="contact_text" type="text" placeholder="FULL NAME" id="name" name="name"
+                            style=" width : 541.86px" required />
+                    </div>
+
+                    <div>
+                        <!-- <label for="email">Email</label> -->
+                        <input class="contact_text" name="email" type="email" placeholder="EMAIL" id="email" required />
+
+                        <!-- <label for="phone">PHONE</label> -->
+                        <input class="contact_text" name="phone" type="tel" placeholder="PHONE N0." id="phone"
+                            required />
+                    </div>
+
+                    <div>
+                        <!-- <label for="text">MESSAGE</label> -->
+                        <input class="contact_text" type="text" name="message" placeholder="MESSAGE" id="message"
+                            style="width: 541.86px;" required />
+                    </div>
+                    <button class="send_button" type="button" onclick="sendEmail()">send</button>
+                </form>
+<!-- to be changed-->
+                <!-- Javascript functions for submitting form responses-->
+                <script>
+                    function sendEmail() {
+                        let name = document.getElementById("name").value;
+                        let email = document.getElementById("email").value;
+                        let phone = document.getElementById("phone").value;
+                        let message = document.getElementById("message").value;
+
+                        let formData = new FormData();
+                        formData.append("name", name);
+                        formData.append("email", email);
+                        formData.append("phone", phone);
+                        formData.append("message", message);
+
+                        fetch("contact.php", {
+                            method: "POST",
+                            body: formData
+                        })
+                            .then(response => {
+                                if (response.ok) {
+                                    return response.text();
+                                }
+                                throw new Error("Network response was not ok.");
+                            })
+                            .then(result => {
+                                alert(result); // Display the result
+                                document.getElementById("contactForm").reset(); // Reset the form
+                            })
+                            .catch(error => {
+                                console.error("Error:", error);
+                            });
+                    }
+                </script>
+
+                <!--Social media handles and other info-->
+                <div class="section" style="display: flex; margin-top: 7%; justify-content: space-evenly;">
+                    <div>
+                        <ul class="example-2">
+                            <li class="icon-content">
+                                <a href="https://www.linkedin.com/company/markult-the-marketing-society-of-motilal-nehru-college/"
+                                    aria-label="LinkedIn" data-social="linkedin" target="_blank">
+                                    <div class="filled"></div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16" xml:space="preserve">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                </a>
+                                <div class="tooltip">LinkedIn</div>
+                            </li>
+                            <li class="icon-content">
+                                <a href="https://www.instagram.com/markult.mlnc/" aria-label="Instagram"
+                                    data-social="instagram" target="_blank">
+                                    <div class="filled"></div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-instagram" viewBox="0 0 16 16" xml:space="preserve">
+                                        <path
+                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                </a>
+                                <div class="tooltip">Instagram</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Markult's address-->
+                    <div class="address">
+                        <h2>Markult</h2>
+                        <p class="address-college"><a href="http://www.mlncdu.ac.in" target="_blank" style="color: whitesmoke;">Motilal Nehru College,</a></p>
+                        <p class="address-college">University of Delhi</p>
+                        <p class="address-college">Benito Juarez Marg,</p>
+                        <p class="address-college">South Motibagh,</p>
+                        <p class="address-college">New Delhi - 110021</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr style="width: 100%; height: 1px; background-color: black;">
+        <p id="copy">&copy; 2024 Markult MLNC. Designed & Developed by <a href="https://www.linkedin.com/in/shubhamkumar142512" target="_blank" style="color: #931329;">Shubham</a>. All rights reserved.</p>
+    </footer>
+</body>
+</html>
